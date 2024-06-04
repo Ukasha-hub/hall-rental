@@ -15,7 +15,7 @@ const Navbar = () => {
 		</a>
 		<ul className="items-stretch hidden space-x-3 lg:flex">
 			<li className="flex">
-				<a rel="noopener noreferrer" href="/" className="flex items-center px-4 -mb-1 border-b-2 dark:border- dark:text-violet-600 dark:border-violet-600">Link</a>
+				<a rel="noopener noreferrer" href="/" className="flex items-center px-4 -mb-1 border-b-2 dark:border- dark:text-violet-600 dark:border-violet-600">Home</a>
 			</li>
 			<li className="flex">
 				<a rel="noopener noreferrer" href="#" className="flex items-center px-4 -mb-1 border-b-2 dark:border-">Link</a>
@@ -30,7 +30,7 @@ const Navbar = () => {
 		<div className="items-center flex-shrink-0 hidden lg:flex">
             
 			<button  className="self-center px-8 py-3 rounded"><Link href="/Login">Sign in</Link></button>
-			<button className="self-center px-8 py-3 font-semibold rounded dark:bg-pink-600 dark:text-gray-50">Sign up</button>
+			<button className="self-center px-8 py-3 font-semibold rounded dark:bg-pink-600 dark:text-gray-50"><Link href="/Register">Register</Link></button>
 		</div>
 		<button className="p-4 lg:hidden">
 			<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="w-6 h-6 dark:text-gray-800">
